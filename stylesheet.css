@@ -1,0 +1,173 @@
+.container-fluid{
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(14, 13, 13);
+    color: rgb(244, 247, 246);
+    height: 50px;
+    border-radius: 5px;
+    align-items: center;
+    gap:50px;
+    position: relative;
+
+}
+.text{
+    font-size: large;
+    font-weight: 200px;;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Rowdies', cursive;
+    color: rgb(255, 251, 251);
+}
+
+.art{
+    padding: 10px;
+    font-style: italic;
+    font: size 30px;
+    text-align:left;
+    padding: 20px;
+}
+.image1{
+    width:100%;
+    height: 600px;
+    position:absolute;
+}
+.grid-container{
+    display:inline-grid;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    grid-template-columns: 1fr 1fr;   
+    gap: 200px;
+
+}
+.qt{
+    height: 300px;
+    width: 450px;
+    padding: 50px;
+    font-size: larger;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Rowdies', cursive;
+    color: rgb(24, 19, 18);
+    border-radius: 20px;
+    background-color: rgba(169, 139, 139, 0.363) ;
+
+}
+.login{
+    float:right;
+    background-color: rgba(169, 139, 139, 0.363);
+    height: 250px;
+    width: 300px;
+    /* position:absolute;
+    bottom: 200px;
+    right: 100px;  */
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    size: 2rem;
+    margin: 50px;
+    
+
+}
+.logtx{
+    margin: 7px;
+    padding: 5px;
+    border-radius:5px;
+    border:none;
+    height: 30px;
+    width: 300px;
+    
+    
+}
+.text-center{
+    text-align: center;
+}
+.head{
+    display:inline-flex;
+    gap: 10px;
+
+}
+.cra{
+    display: block;
+    text-align:start;
+    font-size: 30px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+  
+
+}
+
+.signup{
+    position: absolute;
+    height: 510px;
+    width: 500px;
+    background-color: rgba(169, 139, 139, 0.329);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Rowdies', cursive;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    top: 80px;
+    left :380px;
+}
+.agree{
+    text-align: center;
+    margin-right: 55px;
+}
+.sing{
+    display: flex;
+    height: 50px;
+    background-color: rgb(69, 209, 162);
+    width: 300px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 60px;
+    align-items: center;
+    
+}
+.href{
+    font-weight: bold;
+    color: black;
+}
+.about-container{
+    position: relative;
+}
+.about{
+    position: absolute;
+    height: 450px;
+    width: 600px;
+    background-color:rgba(236, 223, 223, 0.226);
+    top:50px;
+    left: 300px;
+    font-size: 25px;
+}
+.ha{
+    font-size: 50px;
+}
+
+.cart{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly start;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    align-content: center;
+}
+.card{
+    background-color: rgba(213, 213, 233, 0.329);
+  
+    /* /* margin: 10px; */
+    padding: 0px;
+    border-radius: 25px;
+    margin: 0px;
+    animation: updown;
+  
+}
+img{
+    height: 120px;
+    width: 250px;;
+    padding: 0%;
+    margin: 0%;
+
+}
